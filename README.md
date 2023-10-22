@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://your-solution-url.com)](https://www.frontendmentor.io/solutions/ecommerce-website-landing-page-using-reacttailwind-xrwIHOumoO)
+- Live Site URL: ([https://your-live-site-url.com](https://e-commerce-landing-page-challenge-bi1kvh7cn-oz-or.vercel.app/))
 
 ## My process
 

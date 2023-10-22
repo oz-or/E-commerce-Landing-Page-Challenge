@@ -8,26 +8,26 @@ function LightBox({ setShowLightBox }) {
 
   const productImgArr = [
     {
-      big: "../../../../images/image-product-1.jpg",
-      small: "../../../../images/image-product-1-thumbnail.jpg",
+      big: "../../../../public/images/image-product-1.jpg",
+      small: "../../../../public/images/image-product-1-thumbnail.jpg",
       id: 1,
     },
 
     {
-      big: "../../../../images/image-product-2.jpg",
-      small: "../../../../images/image-product-2-thumbnail.jpg",
+      big: "../../../../public/images/image-product-2.jpg",
+      small: "../../../../public/images/image-product-2-thumbnail.jpg",
       id: 2,
     },
 
     {
-      big: "../../../../images/image-product-3.jpg",
-      small: "../../../../images/image-product-3-thumbnail.jpg",
+      big: "../../../../public/images/image-product-3.jpg",
+      small: "../../../../public/images/image-product-3-thumbnail.jpg",
       id: 3,
     },
 
     {
-      big: "../../../../images/image-product-4.jpg",
-      small: "../../../../images/image-product-4-thumbnail.jpg",
+      big: "../../../../public/images/image-product-4.jpg",
+      small: "../../../../public/images/image-product-4-thumbnail.jpg",
       id: 4,
     },
   ];
@@ -83,7 +83,7 @@ function LightBox({ setShowLightBox }) {
           {productImgArr.map((imgObj, i) => {
             return (
               <img
-                src={`../../../../images/image-product-${imgObj.id}-thumbnail.jpg`}
+                src={`../../../../public/images/image-product-${imgObj.id}-thumbnail.jpg`}
                 alt={`Fall Limited Edition Sneakers ${imgObj.id}`}
                 className={`rounded-lg cursor-pointer hover:opacity-70 active:opacity-40 focus:ring-2 focus:opacity-40 focus:ring-orangeColor active:ring-2 active:ring-orangeColor ${
                   i === value && "ring-2 ring-orangeColor opacity-40"

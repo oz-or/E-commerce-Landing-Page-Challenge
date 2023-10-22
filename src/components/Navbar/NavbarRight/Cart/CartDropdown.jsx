@@ -30,7 +30,7 @@ function CartDropdown({ isEmpty, setIsEmpty, cart }) {
         <div className="grid pt-4 gap-y-5">
           <div className="flex items-center pl-5 gap-x-5 ">
             <img
-              src="../../../../../images/image-product-1-thumbnail.jpg"
+              src="../../../../../public/images/image-product-1-thumbnail.jpg"
               alt=""
               className="h-12 rounded-md"
             />

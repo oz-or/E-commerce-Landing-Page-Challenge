@@ -3,7 +3,7 @@ import Hero from "./components/Hero/Hero";
 import LightBox from "./components/Hero/HeroImages/LightBox";
 import { useState } from "react";
 import { useWindowSize } from "@uidotdev/usehooks";
-import CartContext from "./contexts/cartContext";
+import CartContext from "./contexts/CartContext";
 
 function App() {
   const screenSize = useWindowSize();

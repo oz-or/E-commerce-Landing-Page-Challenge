@@ -3,7 +3,7 @@ import PlusSVG from "../../../SVGComponents/PlusSVG";
 import ActionBtn from "../../../ui/ActionBtn";
 import CartSVG from "../../../SVGComponents/CartSVG";
 import { useContext } from "react";
-import CartContext from "../../../../contexts/cartContext";
+import CartContext from "../../../../contexts/CartContext";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../../../cartSlice";
 

@@ -3,7 +3,7 @@ import CartSVG from "../../../SVGComponents/CartSVG";
 import CartDropdown from "./CartDropdown";
 import { useSelector } from "react-redux";
 import { getCart } from "../../../../cartSlice";
-import CartContext from "../../../../contexts/cartContext";
+import CartContext from "../../../../contexts/CartContext";
 
 function Cart() {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,14 +1,14 @@
 import PreviousSVG from "../../SVGComponents/PreviousSVG";
 import NextSVG from "../../SVGComponents/NextSVG";
 import { useState } from "react";
-import big1 from "../../../../public/images/image-product-1.jpg";
-import small1 from "../../../../public/images/image-product-1-thumbnail.jpg";
-import big2 from "../../../../public/images/image-product-2.jpg";
-import small2 from "../../../../public/images/image-product-2-thumbnail.jpg";
-import big3 from "../../../../public/images/image-product-3.jpg";
-import small3 from "../../../../public/images/image-product-3-thumbnail.jpg";
-import big4 from "../../../../public/images/image-product-4.jpg";
-import small4 from "../../../../public/images/image-product-4-thumbnail.jpg";
+import big1 from "../../../../images/image-product-1.jpg";
+import small1 from "../../../../images/image-product-1-thumbnail.jpg";
+import big2 from "../../../../images/image-product-2.jpg";
+import small2 from "../../../../images/image-product-2-thumbnail.jpg";
+import big3 from "../../../../images/image-product-3.jpg";
+import small3 from "../../../../images/image-product-3-thumbnail.jpg";
+import big4 from "../../../../images/image-product-4.jpg";
+import small4 from "../../../../images/image-product-4-thumbnail.jpg";
 
 function HeroImages({ setShowLightBox, screenSize }) {
   const [value, setValue] = useState(0);
@@ -61,7 +61,7 @@ function HeroImages({ setShowLightBox, screenSize }) {
               el.id === value + 1 && (
                 <img
                   src={el.big}
-                  alt=""
+                  alt="Sneaker Picture"
                   className="mt-[-37.5px] 1000:m-0  500:rounded-2xl 500:m-[-30px] 500:scale-75 600:scale-[65%] 1000:scale-100 "
                   onClick={() => {
                     if (screenSize >= 1000) return setShowLightBox(true);

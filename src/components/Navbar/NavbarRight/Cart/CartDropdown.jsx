@@ -18,7 +18,7 @@ function CartDropdown({ isEmpty, setIsEmpty, cart }) {
   }
 
   return (
-    <div className="absolute z-40 h-[255px] w-[360px] bg-whiteColor rounded-xl top-[54px] right-[-62px]  shadow-[0px_30px_34px_-9px_rgba(0,0,0,.2)] 1200:right-[-170px] overflow-y-auto">
+    <div className="absolute z-30 h-[255px] w-[360px] bg-whiteColor rounded-xl top-[54px] right-[-62px]  shadow-[0px_30px_34px_-9px_rgba(0,0,0,.2)] 1200:right-[-170px] overflow-y-auto">
       <div className="p-6 ">
         <span className="font-bold ">Cart</span>
       </div>

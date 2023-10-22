@@ -48,7 +48,7 @@ function LightBox({ setShowLightBox }) {
   }
 
   return (
-    <div className="absolute flex w-[100vw] items-center justify-center h-[100%] bg-blackColor bg-opacity-75 z-40">
+    <div className="absolute flex w-[100vw] items-center justify-center h-[100%] bg-blackColor bg-opacity-75 z-50">
       <div className="500:pt-8 600:flex 1000:flex-col">
         <div className="flex justify-end mr-14 1200:mr-[52px] py-7">
           <div

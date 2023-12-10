@@ -1,4 +1,4 @@
-import profilePicture from "../../../../images/image-avatar.png";
+import profilePicture from "/images/image-avatar.png";
 
 function User() {
   return (

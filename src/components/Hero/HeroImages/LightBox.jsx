@@ -2,14 +2,14 @@ import NextSVG from "../../SVGComponents/NextSVG";
 import PreviousSVG from "../../SVGComponents/PreviousSVG";
 import CloseSVG from "../../SVGComponents/CloseSVG";
 import { useState } from "react";
-import big1 from "../../../../images/image-product-1.jpg";
-import small1 from "../../../../images/image-product-1-thumbnail.jpg";
-import big2 from "../../../../images/image-product-2.jpg";
-import small2 from "../../../../images/image-product-2-thumbnail.jpg";
-import big3 from "../../../../images/image-product-3.jpg";
-import small3 from "../../../../images/image-product-3-thumbnail.jpg";
-import big4 from "../../../../images/image-product-4.jpg";
-import small4 from "../../../../images/image-product-4-thumbnail.jpg";
+import big1 from "/images/image-product-1.jpg";
+import small1 from "/images/image-product-1-thumbnail.jpg";
+import big2 from "/images/image-product-2.jpg";
+import small2 from "/images/image-product-2-thumbnail.jpg";
+import big3 from "/images/image-product-3.jpg";
+import small3 from "/images/image-product-3-thumbnail.jpg";
+import big4 from "/images/image-product-4.jpg";
+import small4 from "/images/image-product-4-thumbnail.jpg";
 
 function LightBox({ setShowLightBox }) {
   const [value, setValue] = useState(0);
@@ -91,7 +91,7 @@ function LightBox({ setShowLightBox }) {
           {productImgArr.map((imgObj, i) => {
             return (
               <img
-                src={`../../../../images/image-product-${imgObj.id}-thumbnail.jpg`}
+                src={`/images/image-product-${imgObj.id}-thumbnail.jpg`}
                 alt={`Fall Limited Edition Sneakers ${imgObj.id}`}
                 className={`rounded-lg cursor-pointer hover:opacity-70 active:opacity-40 focus:ring-2 focus:opacity-40 focus:ring-orangeColor active:ring-2 active:ring-orangeColor ${
                   i === value && "ring-2 ring-orangeColor opacity-40"

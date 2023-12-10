@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 import DeleteSVG from "../../../SVGComponents/DeleteSVG";
 import ActionBtn from "../../../ui/ActionBtn";
 import { clearCart } from "../../../../cartSlice";
-import big1 from "../../../../../images/image-product-1.jpg";
+import big1 from "/images/image-product-1.jpg";
 
 function CartDropdown({ isEmpty, setIsEmpty, cart }) {
   const name = isEmpty ? "" : cart.cart[0].name;
